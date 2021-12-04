@@ -7,8 +7,8 @@ ion-menu-button {
   position: absolute;
   left: 0;
   right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  // top: 5%;
+  // transform: translateY(-20%);
 }
 
 #container strong {
@@ -26,3 +26,41 @@ ion-menu-button {
 #container a {
   text-decoration: none;
 }
+
+ion-item-divider {
+  margin-top: 10px;
+}
+
+
+div #like-icon:after {
+  content: '';
+  display:block;
+  clear: both;
+}
+
+
+.buttons{
+  display: flex;
+   justify-content: space-between;
+}
+.value{
+   padding-left: 10px;
+}
+.comment :hover{
+   cursor: pointer;
+   color: rgb(61, 113, 143);
+}
+.retweet :hover{
+   cursor: pointer;
+   color: rgb(41, 134, 41);
+}
+.heart :hover{
+   cursor: pointer;
+   color:rgb(160, 23, 48);
+}
+.share :hover{
+   cursor: pointer;
+color: rgb(41, 134, 41);;
+}
+
+
